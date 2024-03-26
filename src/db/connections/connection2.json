@@ -1,0 +1,26 @@
+{   
+   
+    "local":{ 
+        "username": "certsManager",
+        "password":"REEEEEEEC212112SDSDSD22_" ,
+        "host": "certs.crwa1op.mongodb.net",
+     "name":"dev1conucle",
+        "protocol": "https"
+    },
+
+    "docker": { 
+        "username": "certsManager",
+        "password":"REEEEEEEC212112SDSDSD22_" ,
+        "name": "certs",
+        "host": "serverauthdb",
+        "port": "80"
+    },
+
+    "kub":{ 
+        "username": "certsManager",
+        "password":"REEEEEEEC212112SDSDSD22_" ,
+        "name": "certs",
+        "host": "serverauthdb",
+        "port": "80"
+    }
+}
