@@ -1,4 +1,5 @@
 'use strict'
+const getProjectMetrics = require("./sonarqube.js");
 const app = require("express")()
 const server=require("./src/server.js")
 const http = require("http");
@@ -16,7 +17,7 @@ app.get('/', function(req,res){
   res.send('<h1>Hello world</h1>');
   // res.json("conucle.io mongo server!")
 })
-
+getProjectMetrics();
 const mongoose = require('mongoose');
 
 // Get MongoDB connection string from environment variable
