@@ -35,7 +35,6 @@
 
 
 
-
 name: Build
 
 on:
@@ -52,7 +51,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: '20'
+          node-version: '20' # Specify Node.js version here
       - name: Checkout code
         uses: actions/checkout@v2
         with:
