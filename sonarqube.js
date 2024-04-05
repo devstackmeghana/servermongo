@@ -3,7 +3,7 @@ const axios = require('axios');
 // Function to retrieve project metrics from SonarQube
 async function getProjectMetrics() {
     try {
-        const token = 'sqa_ee03aecbd104f0d0a0f41e7c37128bb2d660cafe'; // Replace 'your_token' with the actual token value
+        const token = 'sqp_78a993fb92de0d2231e5d298c358efef09047504'; // Replace 'your_token' with the actual token value
 
         // Make a GET request to retrieve project metrics
         const response = await axios.get('http://localhost:9000/api/measures/component', {
